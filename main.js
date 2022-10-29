@@ -8,7 +8,7 @@ $(document).ready(()=>{
     // Carregar Pagina
     $('#intro-jquery').click((e)=>{
         $.ajax({
-            url: "introducao-jquery.html",
+            url: "produtos.html",
             success: (data, textStatus, xhr)=>{
                 console.log(data);
                 console.log(textStatus);

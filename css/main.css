@@ -279,11 +279,11 @@ iframe {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #d41872;
-  background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -o-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -moz-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: linear-gradient(left, #a445b2, #d41872, #fa4299);
+  background: #181bd4;
+  background: -webkit-linear-gradient(left, #4547b27e, #2418d4, #0019fd);
+  background: -o-linear-gradient(left, #4547b27e, #2418d4, #0019fd);
+  background: -moz-linear-gradient(left, #4547b27e, #2418d4, #0019fd);
+  background: linear-gradient(left, #4547b27e, #2418d4, #0019fd);
 }
 
 .focus-input100::after {
@@ -311,7 +311,7 @@ iframe {
 
 .input100:focus + .focus-input100::after {
   left: 23px;
-  color: #d41872;
+  color: #1824d4;
 }
 
 .input100:focus + .focus-input100::before {
@@ -320,7 +320,7 @@ iframe {
 
 .has-val.input100 + .focus-input100::after {
   left: 23px;
-  color: #d41872;
+  color: #181bd4;
 }
 
 .has-val.input100 + .focus-input100::before {
@@ -364,11 +364,11 @@ iframe {
   height: 42px;
   border-radius: 21px;
 
-  background: #d41872;
-  background: -webkit-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -o-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: -moz-linear-gradient(left, #a445b2, #d41872, #fa4299);
-  background: linear-gradient(left, #a445b2, #d41872, #fa4299);
+  background: #2418d4;
+  background: -webkit-linear-gradient(left, #4547b27e, #2418d4, #0019fd);
+  background: -o-linear-gradient(left, #4547b2, #2418d4, #4254fa);
+  background: -moz-linear-gradient(left, #4547b2, #2418d4, #4254fa);
+  background: linear-gradient(left, #4547b2, #2418d4, #4254fa);
   position: relative;
   z-index: 1;
 
@@ -386,7 +386,7 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: 21px;
-  background-color: #555555;
+  background-color: #0ddb4bad;
   top: 0;
   left: 0;
   opacity: 0;
